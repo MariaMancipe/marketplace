@@ -1,0 +1,41 @@
+
+{
+	"buildFiles" : 
+	[
+		"C:/Users/Q551/Documents/Universidad/Tesis/app/marketplace/app/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"C:\\Users\\Q551\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build C:\\Users\\Q551\\Documents\\Universidad\\Tesis\\app\\marketplace\\app\\.externalNativeBuild\\cmake\\debug\\mips --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"native-lib-Debug-mips" : 
+		{
+			"abi" : "mips",
+			"artifactName" : "native-lib",
+			"buildCommand" : "C:\\Users\\Q551\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build C:\\Users\\Q551\\Documents\\Universidad\\Tesis\\app\\marketplace\\app\\.externalNativeBuild\\cmake\\debug\\mips --target native-lib",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=mipsel-none-linux-android --gcc-toolchain=C:/Users/Q551/AppData/Local/Android/sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/Q551/AppData/Local/Android/sdk/ndk-bundle/platforms/android-19/arch-mips  -Dnative_lib_EXPORTS -isystem C:\\Users\\Q551\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\Users\\Q551\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips\\include -isystem C:\\Users\\Q551\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/Q551/Documents/Universidad/Tesis/app/marketplace/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "C:/Users/Q551/Documents/Universidad/Tesis/app/marketplace/app/.externalNativeBuild/cmake/debug/mips"
+				}
+			],
+			"output" : "C:/Users/Q551/Documents/Universidad/Tesis/app/marketplace/app/build/intermediates/cmake/debug/obj/mips/libnative-lib.so",
+			"toolchain" : "2159790533"
+		}
+	},
+	"toolchains" : 
+	{
+		"2159790533" : 
+		{
+			"cCompilerExecutable" : "C:/Users/Q551/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "C:/Users/Q551/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}
